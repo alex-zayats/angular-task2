@@ -65,11 +65,11 @@ scope.$watch(
   }
 );
 
-scope.firstName = 'Joe';
+scope.firstName = 'Zayats';
 scope.$digest();
 console.log(scope.counter);
 
-scope.firstName = 'Jane';
+scope.firstName = 'Zayats2';
 scope.$digest();
 console.log(scope.counter);
 
